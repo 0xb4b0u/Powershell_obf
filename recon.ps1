@@ -6,7 +6,6 @@ function Get-Permissions ($folder) {
             }
     }
     catch{
-        Write-Output "Error reading permissions for $folder"
     }
 }
 
